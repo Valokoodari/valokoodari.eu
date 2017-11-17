@@ -1,0 +1,67 @@
+/* My custom spreadsheet */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation Bar */
+.custom-nav {
+    background: #202020;
+    height: 50px;
+	border-bottom: solid #008FFF 4px;
+    z-index: 9999;
+}
+
+.custom-nav #logo {
+    display: inline-block;
+    height: 46px;
+}
+
+.custom-nav #links {
+    height: 46px;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.custom-nav #links > li {
+    height: 100%;
+    display: inline-block;
+    padding: 3px 10px 0px 10px;
+    background: #202020;
+}
+
+.custom-nav #links > li:hover {
+    background: #008FFF;
+}
+
+.custom-nav #links > li > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Hero */
+#hero {
+    background: url("/img/between-clouds.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+    z-index: -1;
+}
+
+#hero > h1 {
+    color: #000000;
+}

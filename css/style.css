@@ -8,6 +8,10 @@ html, body {
 .custom-nav {
     background: #202020;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
 	border-bottom: solid #008FFF 4px;
     z-index: 9999;
 }
@@ -20,7 +24,7 @@ html, body {
 .custom-nav #links {
     height: 46px;
     list-style: none;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
 }
@@ -47,7 +51,7 @@ html, body {
 
 /* Hero */
 #hero {
-    background: url("/img/between-clouds.jpg");
+    background: url("https://ioth8a-dm2305.files.1drv.com/y4m201ur-VYmt2e48fllt0As548FKUQ3SGQpX6wKFACCpoqVNCMo1yl-EyQPzJd8-U7f-gUdEKEttPFNaaBl-MtiFSdZe3N3zsEHRkZYn_ye1YLybxx_vQVjNJNXkep8x6RH0uSj0C3fyq7n_5ijQol_XHOLyUWeJf1Cwv_QijbCdApCaZtwz0CV_UclljCrESLfaCHKdu0Q18JvmiHhxyiQw?width=1080&height=720&cropmode=none");
     background-size: cover;
     background-position: center bottom;
     height: 100%;
@@ -57,11 +61,28 @@ html, body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: -50px;
-    position: relative;
     z-index: -1;
 }
 
 #hero > h1 {
     color: #000000;
+    padding: 1px;
+}
+
+
+/* Image Folders */
+.ifol {
+    height: 300px;
+}
+
+.ifol > a:hover {
+    text-decoration: none;
+}
+
+.ifol h3 {
+    color: #FFFFFF;
+    font-size: 36px;
+    display: block;
+    float: left;
+    margin-top: 252px;
 }

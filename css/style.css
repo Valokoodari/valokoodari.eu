@@ -62,6 +62,7 @@ html, body {
     justify-content: center;
     text-align: center;
     z-index: -1;
+    border-bottom: solid #008FFF 3px;
 }
 
 #hero > h1 {
@@ -73,16 +74,41 @@ html, body {
 /* Image Folders */
 .ifol {
     height: 300px;
+    padding: 0;
 }
 
 .ifol > a:hover {
     text-decoration: none;
 }
 
+.ifol .strip {
+    width: 100%;
+    height: 50px;
+    background: #202020;
+    border-bottom: solid #008FFF 3px;
+}
+
+.ifol h2 {
+    color: #5F5F5F;
+    display: block;
+    float: right;
+    margin: 6px 10px 0 0;
+}
+
+.ifol:hover h2 {
+    color: #8F8F8F;
+}
+
 .ifol h3 {
     color: #FFFFFF;
-    font-size: 36px;
     display: block;
     float: left;
-    margin-top: 252px;
+    margin: 9px 0 0 10px;
+}
+
+.ifol h4 {
+    color: #5F5F5F;
+    display: block;
+    float: right;
+    margin: 14px 5px 0 0;
 }
